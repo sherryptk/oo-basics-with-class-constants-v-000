@@ -18,5 +18,6 @@ class Shoe
     if BRANDS.include?(brand)
       break
     else BRANDS << brand
+    end
   end
 end
